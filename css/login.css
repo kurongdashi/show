@@ -1,0 +1,98 @@
+body{
+    background: url("../images/bg5.jpg");
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height:100px;
+    position:relative;
+}
+.reg_content{
+    clear: both;
+    padding:80px 0;
+    /*background-color: #f0f0f0;*/
+}
+.reg_box{
+    padding:40px 30px;
+    margin:0 auto;
+    width:800px;
+    overflow: hidden;
+    /*background: #fff;*/
+    /*box-shadow: 1px 2px 4px #999;*/
+}
+.reg_box h3{
+    padding:10px 0 30px;
+}
+.reg_box .form_row{
+    padding:10px 0;
+    overflow: hidden;
+}
+#company_row{
+    display: none;
+}
+.reg_box .form_row .form_name{
+    width:100px;
+    line-height:30px;
+    display: inline-block;
+    color: #fff;
+    text-align: right;
+    float: left;
+    font-size: 14px;
+}
+.reg_box .form_row .form_cont{
+    float: left;
+    margin-left:5px;
+}
+.reg_box .form_row .form_cont p{
+
+    line-height:32px;
+    font-size: 14px;
+}
+.reg_box .form_row .form_cont p input{
+    margin-right:5px;
+}
+.ipt{
+    font-size: 14px;
+    border: 1px #cfcfcf solid;
+    border-radius: 4px;
+    height: 35px;
+    line-height: normal;
+    color: #666;
+    padding: 0 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_row .form_cont .tip{
+    margin-left:10px;
+}
+.form_row .form_cont .tip b{
+    color: #f00;
+    margin-right:3px;
+}
+.reg_box .btn_row{
+    padding-top:20px;
+}
+.reg_box .btn_row .reg_btn{
+    border: none;
+    width:240px;
+    background-color: #e77919;
+    color: #fff;
+    line-height:48px;
+    font-size: 16px;
+    outline:none;
+    border-radius: 10px;
+}
+.reg_box .btn_row .reg_btn:target{
+    background-color: #e0e0e0;
+}
+.reg_box .login_row{
+    margin-top: 25px;
+    background: #DAEDEF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.txt{
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+}

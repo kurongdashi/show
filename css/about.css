@@ -1,0 +1,65 @@
+/*通栏广告*/
+.banner{
+    height:460px;
+    background: url("../images/about_banner.jpg") no-repeat center center;
+}
+.box{
+    padding:25px 0;
+    background: #f0f0f0;
+}
+.box p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.about_jion{
+    /*清除浮动，解决盒子内部子盒子浮动后没有高*/
+    overflow: hidden;
+    padding:40px 0;
+}
+.menu_left{
+    width:240px;
+    float: left;
+}
+.menu_left ul li{
+    height:36px;
+    line-height:36px;
+    margin-bottom:5px;
+}
+.menu_left ul li a{
+    color: #333;
+    padding-left:20px;
+    display: block;
+    font-size: 14px;
+}
+.menu_left ul li:hover a{
+    color: #fff;
+    background-color: #E77919;
+}
+.menu_left ul li .about_active{
+    color: #fff;
+    background-color: #E77919;
+}
+
+.about_right{
+    width:900px;
+    padding:0 25px;
+    float: right;
+}
+.about_right p{
+    font-size: 14px;
+    margin-bottom:12px;
+}
+.about_right .kefu{
+    padding:15px 0;
+    font-size: 20px;
+    border-bottom: 1px #cfcfcf solid;
+}
+.about_right .contact_info{
+    /*清除浮动，解决盒子内部子盒子浮动后没有高 ，浮动的元素不能遮挡文字*/
+    overflow: hidden;
+    padding:20px 0;
+}
+.about_right .contact_info .map{
+    float: left;
+    margin-right:20px;
+}

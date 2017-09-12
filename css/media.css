@@ -1,0 +1,65 @@
+/*通栏广告*/
+.banner{
+    background: url("../images/web_banner.jpg") no-repeat;
+    height: 640px;
+}
+/* 流程图栏*/
+.flow{
+    padding:25px 0;
+    background-color: #f0f0f0;
+}
+/*流程图下的内容*/
+.flow_content{
+    overflow: hidden;
+    padding:70px 0;
+}
+.flow_content .item{
+    width: 50%;
+    /*盒子包涵边框和padding就可以避开设置width后的计算了*/
+    box-sizing: border-box;
+    float: left;
+    padding: 60px 35px 50px;
+}
+.flow_content .item .icon{
+    width: 120px;
+    height: 120px;
+    background: url(../images/ico_desc.png) no-repeat;
+    float: left;
+    margin-right: 35px;
+}
+.flow_content .item .bg_position1{
+    background-position: 0 0;
+}
+.flow_content .item .bg_position2{
+    background-position: -120px 0;
+}
+.flow_content .item .bg_position3{
+    background-position: -240px 0;
+}
+.flow_content .item .bg_position4{
+    background-position: -360px 0;
+}
+.flow_content .item .tit{
+    font-size: 20px;
+    line-height: 40px;
+    color: #41929F;
+}
+.flow_content .item .txt{
+    font-size: 14px;
+    line-height: 24px;
+}
+/* 按钮*/
+.btn{
+    padding:0 0 70px 0;
+}
+.btn a{
+    width: 420px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #42939F;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}

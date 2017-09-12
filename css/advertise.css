@@ -1,0 +1,118 @@
+/*通栏广告*/
+.banner{
+    background: url("../images/ads_banner.jpg") no-repeat;
+    height: 640px;
+}
+/* 流程图栏*/
+.flow{
+    padding:25px 0;
+    background-color: #f0f0f0;
+}
+/*流程图下的内容 */
+.flow_content{
+    /*overflow: hidden;*/
+    padding:100px 0;
+}
+/*tab 图标*/
+.tab_box ul li{
+    /*overflow: hidden;*/
+    width:20%;
+    float: left;
+    text-align: center;
+}
+.tab_box ul li a{
+    color: #726D73;
+    padding: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+.tab_box ul li a img{
+    width: 100px;
+    height: 100px;
+}
+.tab_box ul li a .icon{
+    font-size: 72px;
+    padding: 50px 70px;
+    color: #ccc;
+    border: 1px #cfcfcf solid;
+    display: block;
+}
+.tab_box ul li:hover a .icon{
+    color: #EB9243;
+    background-color: #f0f0f0;
+}
+.tab_box ul li a .active{
+    color: #EB9243;
+    background-color: #f0f0f0;
+}
+.tab_box ul li .name{
+    line-height:40px;
+}
+.tab_box ul li:hover .name{
+    color: #EB9243;
+}
+.tab_box ul li .act{
+    color: #EB9243;
+}
+/*tab 内容*/
+.flow_content .tab_box .tab_content{
+    /*clear:both 用于一个div中清除之前float的影响*/
+    clear: both;
+    padding:60px 0 20px ;
+    height:500px;
+
+}
+.tab_box .moving_box {
+    position: relative;
+    width: 1100px;
+    height: 540px;
+    margin: 20px auto 0;
+}
+
+.tab_box .moving_box .prev,.next{
+    position: absolute;
+    top: 50%;
+    width: 39px;
+    height: 80px;
+    margin-top: -40px;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url("../images/arrow.png") no-repeat;
+    /*background-position: 0 0;*/
+}
+.tab_box .moving_box .prev{
+    left:-60px;
+}
+.tab_box .moving_box .next{
+    right:-60px;
+    /*原点不变，移动图片的原则，x为正图片右移动，否则左移动 同理y轴为正值图片向下移动*/
+    background-position: -39px 0;
+}
+/*图片列表*/
+.moving_box ul {
+    position: relative;
+    width: 1100px;
+    height: 520px;
+}
+.tab_box .moving_box li{
+    position: absolute;
+}
+.tab_box .moving_box li img{
+    width:100%;
+}
+/* 按钮*/
+.btn{
+    padding:0 0 70px 0;
+}
+.btn a{
+    width: 420px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #42939F;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}

@@ -1,0 +1,59 @@
+/*公共*/
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    /*点击后高亮显示*/
+    -webkit-tap-highlight-color: transparent;
+    /*盒子模型，在百分比布局中*/
+    box-sizing: border-box;
+    -webkit-appearance:none ;
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    vertical-align: top;
+}
+input,textarea{
+    border:0;
+    resize: none;
+    /*选中后蓝色边框*/
+    outline:none;
+    /*在手机上的默认样式*/
+    -webkit-appearance: none;
+}
+/*将伪元素设置为清除浮动，可以不用在HTML骨架中出现没有语意的标签*/
+.clearfix::before,
+.clearfix::after{
+    content: ' ';
+    display: block;
+    height:0;
+    line-height:0;
+    visibility: hidden;
+    clear: both;
+}
+.clear{
+    overflow: hidden;
+}
+.float_right{
+    float: right;
+}
+.float_left{
+    float: left;
+}
+.w640{
+    /*min-width:300px;*/
+    /*max-width:640px;*/
+    margin:0 auto;
+}
+.textCenter{
+    text-align: center;
+}

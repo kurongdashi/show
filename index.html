@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>一九八二传媒-移动广告营销平台</title>
+    <meta name="keywords" content="一九八二传媒，手机广告，广告app推广，移动营销">
+    <meta name="description" content="智能化的移动广告交易平台，通过与手机应用APP、DSP平台以及广告交易平台合作，
+        能使广告主的投放效果得到显著提升、开发者降低广告管理成本并大幅提升广告收入">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/page.css">
+</head>
+<style>
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        font-family: "Microsoft YaHei", "SimSub";
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+
+    body>ul {
+        width: 100%;
+        height: 100%;
+    }
+
+    body>ul>li {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-background-size:cover;
+        background-size:cover;
+    }
+    body>ul>li .bg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top:0;
+        z-index: -1;
+
+    }
+    body>ul>li:nth-child(1) .bg{
+        background: url("images/bg6.jpg")no-repeat center;
+    }
+    body>ul>li:nth-child(2) .bg{
+        background: url("images/bg5.jpg")no-repeat center;
+
+    }
+    body>ul>li:nth-child(3) .bg{
+        background: #e1e1e1;
+    }
+    /*动画缩放*/
+    .scale{
+        animation: scale 3s ;
+    }
+    @keyframes scale {
+        0%{
+           transform: scale(1.5);
+        }
+        100%{
+            transform: scale(1.0);
+        }
+    }
+    .scale2{
+        animation: scale2 3s ;
+    }
+    @keyframes scale2 {
+        0%{
+            transform: scale(0.5);
+        }
+        100%{
+            transform: scale(1.0);
+        }
+    }
+    /*动画移动*/
+    .move{
+        animation: move 2s ;
+    }
+    @keyframes move {
+        0%{
+             left:-50%;
+        }
+        75%{
+            left:30%;
+        }
+        100%{
+            left:25%;
+        }
+    }
+
+
+    body>ul>li .media_box{
+        font-family: "SimSub";
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        left: 25%;
+        top:30%;
+        z-index: 2;
+    }
+    .media_box h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+    .media_box p{
+        margin-top:20px;
+        line-height:30px;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+
+
+    /*----------平台优势----------------*/
+
+    /*每个小块和上一个之间的间隔*/
+    .block {
+        padding: 30px 0;
+    }
+    .block1 {
+        padding: 70px 0 10px;
+    }
+    .page_title{
+        font-family: "SimSub";
+        text-align: center;
+        font-size: 28px;
+        color: white;
+    }
+    .advantage {
+        width: 50%;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .hidden{
+        display: none;
+    }
+    .padding_left{
+        padding-left:40px;
+    }
+    .padding_right{
+        padding-right:40px;
+    }
+
+    .advantage .adv_img_box {
+        text-align: center;
+    }
+
+    .advantage .adv_img_box img {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .advantage .des_box {
+        padding: 10px;
+    }
+
+    .advantage .des_box .title {
+        text-align: center;
+        color: gold;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+
+    .advantage .des_box .text {
+        line-height: 24px;
+        color: white;
+    }
+
+    /*--------合作伙伴----------*/
+    .company_all {
+        padding: 70px 0;
+        overflow: hidden;
+    }
+
+    .company_all .list li {
+        width: 20%;
+        float: left;
+        padding: 30px ;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .company_all .list li img {
+        width: 180px;
+        height: 90px;
+        margin: 0 auto;
+        transition: transform 2s;
+    }
+
+    .company_all .list li img:hover {
+        transform: scale(1.2);
+    }
+    .item_bob{
+        border-bottom: 2px solid #ccc ;
+    }
+
+</style>
+<body id="body">
+<ul>
+    <li >
+        <!--顶部固定导航条-->
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo_img"></a>
+                </div>
+                <ul class="nav">
+                    <li><a href="index.html" class="active">主页</a></li>
+                    <li><a href="advertisement.html">广告主</a></li>
+                    <li><a href="media.html">媒介主</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="login.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="media_box">
+            <h1>一&nbsp;&nbsp;&nbsp;九&nbsp;&nbsp;&nbsp;八&nbsp;&nbsp;&nbsp;二&nbsp;&nbsp;&nbsp;传&nbsp;&nbsp;&nbsp;媒</h1>
+            <p>手机广告，广告app推广，移动营销</p>
+            <p>智能化的移动广告交易平台，通过与手机应用APP、DSP平台以及广告交易平台合作</p>
+            <p>能使广告主的投放效果得到显著提升、开发者降低广告管理成本并大幅提升广告收入</p>
+        </div>
+        <div class="bg"></div>
+    </li>
+    <li>
+        <!--平台优势-->
+        <div class="container block1">
+            <h3 class="page_title">一&nbsp;&nbsp;九&nbsp;&nbsp;八&nbsp;&nbsp;二&nbsp;&nbsp;传&nbsp;&nbsp;媒&nbsp;&nbsp;的&nbsp;&nbsp;优&nbsp;&nbsp;势</h3>
+            <div class="block clear">
+                <div class="advantage float_left padding_right">
+                    <div class="adv_img_box"><img src="images/advantage1.jpg" alt=""></div>
+                    <div class="des_box">
+                        <p class="title">覆盖全国海量用户</p>
+                        <p class="text">一九八二传媒依靠对海量媒体的聚合与梳理，为广告主提供有效的移动广告受众高度覆盖，最少投入带来最好的投放效果。</p></div>
+                </div>
+                <div class="advantage float_right padding_left">
+                    <div class="adv_img_box"><img src="images/advantage2.jpg" alt=""></div>
+                    <div class="des_box">
+                        <p class="title">多重广告解决方案</p>
+                        <p class="text">一九八二传媒拥有丰富的广告展现，极大地提高广告投放推广成效。为广告制定最合适的广告展现形式，以吸引目标受众进行交互，从而达到最佳的推广效果。</p></div>
+                </div>
+                <div class="advantage float_right padding_left">
+                    <div class="adv_img_box"><img src="images/advantage3.jpg" alt=""></div>
+                    <div class="des_box">
+                        <p class="title">广告资源丰富</p>
+                        <p class="text">一九八二传媒与众多知名广告商进行合作，拥有丰富的高质量广告资源，保证广告填充率，提高网站主收益。</p></div>
+                </div>
+                <div class="advantage float_left padding_right">
+                    <div class="adv_img_box"><img src="images/advantage4.jpg" alt=""></div>
+                    <div class="des_box">
+                        <p class="title">精准定位到用户行为投放</p>
+                        <p class="text">一九八二传媒拥有独特的先进数据挖掘技术，精准挖掘用户群，实现传播效果最大化，满足广告主的精确投放需求。</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+    </li>
+    <li>
+        <!--合作伙伴-->
+        <div class="container block1">
+            <div class="company">
+                <h3 class="page_title ">一&nbsp;&nbsp;九&nbsp;&nbsp;八&nbsp;&nbsp;二&nbsp;&nbsp;传&nbsp;&nbsp;媒&nbsp;&nbsp;合&nbsp;&nbsp;作&nbsp;&nbsp;伙&nbsp;&nbsp;伴</h3>
+                <div class="company_all">
+                    <ul class="list">
+                        <li><img src="images/client-01.jpg" alt=""></li>
+                        <li><img src="images/client-02.jpg" alt=""></li>
+                        <li><img src="images/client-03.jpg" alt=""></li>
+                        <li><img src="images/client-04.jpg" alt=""></li>
+                        <li><img src="images/client-05.jpg" alt=""></li>
+                        <li><img src="images/client-06.jpg" alt=""></li>
+                        <li><img src="images/client-07.jpg" alt=""></li>
+                        <li><img src="images/client-08.jpg" alt=""></li>
+                        <li><img src="images/client-09.jpg" alt=""></li>
+                        <li><img src="images/client-10.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item_bob"></div>
+        </div>
+        <div class="bg"></div>
+        <!--我们自己-->
+            <?php include 'footer.php';?>
+    </li>
+</ul>
+</body>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/scrollscreen.js"></script>
+</html>

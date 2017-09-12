@@ -1,0 +1,30 @@
+body{
+    background-color: #f0f0f0;
+}
+.pro_box{
+    width: 930px;
+    margin: 15px auto;
+    padding: 10px 25px 20px 25px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #CCC;
+}
+.pro_box h2{
+    color: #333;
+    font-size: 16px;
+    padding: 15px 0;
+    border-bottom: 1px #cfcfcf solid;
+}
+.pro_box .pro_txt{
+    padding:15px 0 10px ;
+    color: #555;
+}
+.pro_txt p{
+    /*首行缩进2个字符*/
+    text-indent:2em;
+    margin-bottom:10px;
+}
+.pro_txt h3{
+    color: #444;
+    padding:5px 0 10px;
+
+}

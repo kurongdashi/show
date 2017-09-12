@@ -1,0 +1,74 @@
+/*所有页面的公共样式*/
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    /*点击后高亮显示*/
+    -webkit-tap-highlight-color: transparent;
+    /*盒子模型，在百分比布局中*/
+    box-sizing: border-box;
+    -webkit-appearance:none ;
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif;
+}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+
+.clearfix::before,
+.clearfix::after{
+    content: ' ';
+    display: block;
+    height:0;
+    line-height:0;
+    visibility: hidden;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+
+.txt_green {
+    color: #40929F;
+}
+/*文字居中*/
+.txt_center {
+    text-align: center;
+}
+/*小字体标题*/
+.sm_txt {
+    font-size: 24px;
+    color: #726D73;
+}
+/* 大标题*/
+.xl_txt {
+    color: #333;
+    font-size: 28px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+h1,h2,h3,h4,h5,h6,p{
+    /*text-align: center;*/
+}
+a{
+    text-decoration: none;
+}
+.txtOrange{
+   color: #E77919;
+}
+.clear{
+    overflow: hidden;
+}
+.w250{
+    width:250px;
+}
+.hidden{
+    display: none;
+}

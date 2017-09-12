@@ -1,0 +1,38 @@
+[
+  {
+    "top":47,
+    "left":0,
+    "width":215,
+    "opacity":0.8,
+    "z":2
+  },
+  {
+    "top":24,
+    "left":180,
+    "width":242,
+    "opacity":0.9,
+    "z":3
+  },
+  {
+    "top":0,
+    "left":390,
+    "width":269,
+    "opacity":1,
+    "z":4
+  },
+  {
+    "top":24,
+    "left":650,
+    "width":242,
+    "opacity":0.9,
+    "z":3
+  },
+  {
+    "top":47,
+    "left":850,
+    "width":215,
+    "opacity":0.8,
+    "z":2
+  }
+
+]

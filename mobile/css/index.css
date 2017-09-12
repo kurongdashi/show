@@ -1,0 +1,261 @@
+html,body{
+    width:100%;
+}
+.container{
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    width:100%;
+    background: #FFFFFF;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 1px 1px 1px #ccc;
+    color: #726D73;
+    font-size: 16px;
+}
+.nav{
+    width:100%;
+    position: relative;
+}
+.nav ul{
+    width:130%;
+}
+.nav ul li{
+    padding: 5px 10px;
+    float: left;
+}
+.nav ul li::after{
+    content: ' ';
+    margin-left: 10px;
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.nav ul li a{
+    display: inline-block;
+    height:36px;
+    line-height:36px;
+    color: #726D73;
+}
+.nav ul li a.active{
+    border-bottom: 1px solid blue;
+}
+
+
+/*整个viewpager1*/
+.screen{
+    width: 100%;
+    overflow: hidden;
+
+}
+.screen .page_count{
+    width: 500%;
+    position: relative;
+}
+.w20{
+    width: 20%;
+}
+/*第一版页面*/
+.viewpager1 .page>img{
+    width:100%;
+}
+/*关于公司信息*/
+.viewpager1 .about_my{
+    padding:30px 10px;
+    color: #333;
+}
+.viewpager1 .about_my .title{
+    padding:10px;
+    text-align: center;
+}
+.viewpager1 .about_my .text{
+    line-height:30px;
+}
+/*平台优势*/
+.viewpager1 .advantage_box{
+    padding:10px;
+}
+.viewpager1 .advantage_box .title{
+    padding:10px;
+    font-size: 16px;
+    text-align: center;
+}
+.viewpager1 .advantage_box .bdb{
+    padding:10px;
+    border-bottom: 1px solid #ccc;
+}
+.viewpager1 .advantage {
+    width:100%;
+    padding:10px;
+    color: #333;
+}
+.viewpager1 .advantage>img{
+    width:100%;
+}
+.viewpager1 .advantage .title{
+    padding:10px;
+    font-size: 16px;
+    text-align: center;
+}
+.viewpager1 .advantage .text{
+    line-height:26px;
+}
+/*合作伙伴*/
+.viewpager1 .company_box{
+    padding:10px;
+    width:100%;
+}
+.viewpager1 .company_box .title{
+    padding:10px;
+    font-size: 16px;
+    text-align: center;
+}
+.viewpager1 .company_box .bdb{
+
+    padding:10px;
+    border-bottom: 1px solid #ccc;
+}
+.viewpager1 .company{
+    padding:10px;
+}
+.viewpager1 .company img{
+    width: 50%;
+}
+
+/*第二版页面*/
+.viewpager2 .adv_box{
+    padding:0 10px;
+}
+.viewpager2 .advertise{
+    padding:10px;
+    float: left;
+    width: 50%;
+}
+.viewpager2 .advertise .img_box{
+    margin:5px auto;
+    width: 60%;
+}
+.viewpager2 .advertise img{
+    width: 100%;
+}
+.viewpager2 .advertise p{
+    color: #333;
+    text-align: center;
+}
+.viewpager2 h3{
+    padding:10px;
+}
+.viewpager2 ul li{
+    padding:10px;
+}
+.viewpager2 ul li img{
+    width: 100%;
+}
+.viewpager2 ul li p{
+    padding:10px;
+    text-align: center;
+    color: #f00e0d;
+}
+/*第三版*/
+.viewpager3 .media_box{
+    padding:10px;
+    display: flex;
+    overflow: hidden;
+}
+.viewpager3 .media_box .img_box{
+    float: left;
+    width: 30%;
+}
+.viewpager3 .media_box .img_box img{
+    width: 100%;
+}
+.viewpager3 .media_box .des_box{
+    margin:auto auto;
+    width: 70%;
+    float: left;
+}
+.viewpager3 .media_box .des_box .title{
+    text-align: center;
+    font-size: 16px;
+    color: #41929F;
+    font-weight: 600;
+    padding:3px 0px;
+}
+.viewpager3 .media_box .des_box .des{
+    color: #726D73;
+    line-height:20px;
+}
+/*第4版关于我们*/
+.viewpager4 .about{
+    padding:10px;
+}
+.viewpager4 .about p{
+    line-height:30px;
+}
+.viewpager4 .map{
+    padding:10px;
+}
+.viewpager4 .map h3{
+    padding:10px;
+}
+.viewpager4 .map img{
+    width: 100%;
+}
+/*第5版登录*/
+.viewpager5 .login_box{
+    padding:10px;
+}
+.viewpager5 .login_box h3{
+    color: #41929F;
+    padding:10px;
+}
+.viewpager5 .login_box p{
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    line-height:30px;
+    padding:10px;
+}
+.viewpager5 .login_box span{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+}
+.viewpager5 .login_box .in{
+    display: inline-block;
+    width:75%;
+    border: 1px solid #c3c3c3;
+    padding:2px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height:30px;
+}
+.viewpager5 .login_box .login{
+    border-radius: 10px;
+    padding:10px 45%;
+    background-color: #f0ad4e;
+    font-size: 18px;
+    color: #fff;
+}
+
+/*底部脚注*/
+.footer_box{
+    position: relative;
+
+}
+.footer{
+    color: #726D73;
+    background-color: #eee;
+    padding:20px;
+}
+.footer p{
+    line-height:26px;
+}
+.gotop{
+    color: #a8a8a8;
+    padding:20px;
+    text-align: center;
+    background-color: #e3e3e3;
+}
